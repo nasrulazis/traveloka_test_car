@@ -21,10 +21,10 @@ Make sure you have the following software installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/Sanber53-Cypress-Kelompok15.git
+   git clone https://github.com/nasrulazis/traveloka_test_car.git
 2. Navigate to the project folder:
     ```bash
-   cd Sanber53-Cypress-Kelompok15
+   cd traveloka_test_car
 3. Install dependencies:
    ```bash
    npm install

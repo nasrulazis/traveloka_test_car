@@ -1,0 +1,16 @@
+export class CarRentalPage{
+    radWithoutDriver = '.r-18u37iz > .r-88pszg > .r-1awozwy > .r-1naam9t'
+    etxCityLocation = '[data-testid="rental-search-form-location-input"]'
+    drpCityLocation = ':nth-child(1) > [aria-label="Jakarta"]'
+    etxRentalStartDate = '[data-testid="rental-search-form-date-input-start"]'
+    etxRentalStartTime = '[data-testid="rental-search-form-time-input-start"]'
+    etxRentalEndDate = '[data-testid="rental-search-form-date-input-end"]'
+    etxRentalEndTime = '[data-testid="rental-search-form-time-input-end"]'
+    btnSearchBar = '[data-testid="rental-search-form-cta"]'
+    btnStartDate = ':nth-child(1) > :nth-child(2) > :nth-child(2) > .r-1wh2hl7 > .r-edyy15 > :nth-child(1) > [data-testid="mds-calendar"] > [style="width: 656px;"] > :nth-child(2) > :nth-child(1) > [data-year="2024"] > .r-c0cves > :nth-child(30) > [data-testid="date-cell-26-3-2024"] > :nth-child(1) > .r-18u37iz > .r-1awozwy > .css-901oao'
+    btnEndDate = ':nth-child(5) > :nth-child(2) > :nth-child(2) > .r-1wh2hl7 > .r-edyy15 > :nth-child(1) > [data-testid="mds-calendar"] > [style="width: 656px;"] > :nth-child(2) > :nth-child(1) > [data-year="2024"] > .r-c0cves > :nth-child(30) > [data-testid="date-cell-26-3-2024"] > :nth-child(1) > .r-18u37iz > .r-1awozwy > .css-901oao'
+    btnStartTime = '.r-150rngu > :nth-child(1) > :nth-child(9)'
+    btnEndTime = '.r-150rngu > :nth-child(1) > :nth-child(12)'
+    btnEndTimeMinutes = ':nth-child(3) > .r-1l31rp8 > .r-150rngu > :nth-child(1) > :nth-child(1)'
+    btnDone = '.r-y46g1k > .css-18t94o4 > .css-1dbjc4n > .css-901oao'
+}
